@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTouchIDManager'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'MMTouchIDManager manages your TouchID for your app'
 
 # This description is used to generate tags and improve search results.
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'It allows to manage easily TouchID hardware in your device'
 
   s.homepage         = 'https://github.com/iMark21/MMTouchIDManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'iMark21' => 'marques.jm@icloud.com' }
   s.source           = { :git => 'https://github.com/iMark21/MMTouchIDManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/michelmarques21'
+  s.social_media_url = 'https://twitter.com/michelmarques21'
 
   s.ios.deployment_target = '8.0'
 

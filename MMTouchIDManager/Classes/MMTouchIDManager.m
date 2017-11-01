@@ -1,6 +1,6 @@
 //
 //  TouchIDManager.m
-//  SmallWorld
+//  Juan Miguel Marques Morilla
 //
 //  Created by Juan Miguel Marques Morilla on 1/11/17.
 //  Copyright © Juan Miguel Marques Morilla. All rights reserved.
