@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048BC0B6909B6583760A18FF /* MMTouchIDManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMTouchIDManager.podspec; path = ../MMTouchIDManager.podspec; sourceTree = "<group>"; };
+		048BC0B6909B6583760A18FF /* MMTouchIDManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMTouchIDManager.podspec; path = ../MMTouchIDManager.podspec; sourceTree = "<group>"; };
 		31C87A4E4B49CB27501D3635 /* Pods_MMTouchIDManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTouchIDManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MMTouchIDManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMTouchIDManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,10 +58,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		64C1F242DE98CEF7CBFEE669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64C1F242DE98CEF7CBFEE669 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6F5EF6503D629A7E5E2D08A5 /* Pods-MMTouchIDManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTouchIDManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMTouchIDManager_Example/Pods-MMTouchIDManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		785FDF7BDC746D728E3D7900 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		785FDF7BDC746D728E3D7900 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B03F981D8C5D102F85ABAF8 /* Pods-MMTouchIDManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTouchIDManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMTouchIDManager_Example/Pods-MMTouchIDManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C76EBBDADE366A3EA2036352 /* Pods-MMTouchIDManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTouchIDManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMTouchIDManager_Tests/Pods-MMTouchIDManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = iMark21;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J98FW8N44Z;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = 7B03F981D8C5D102F85ABAF8 /* Pods-MMTouchIDManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J98FW8N44Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMTouchIDManager/MMTouchIDManager-Prefix.pch";
 				INFOPLIST_FILE = "MMTouchIDManager/MMTouchIDManager-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 6F5EF6503D629A7E5E2D08A5 /* Pods-MMTouchIDManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J98FW8N44Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMTouchIDManager/MMTouchIDManager-Prefix.pch";
 				INFOPLIST_FILE = "MMTouchIDManager/MMTouchIDManager-Info.plist";

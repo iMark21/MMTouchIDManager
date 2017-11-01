@@ -1,0 +1,6 @@
+framework module Pods_MMTouchIDManager_Example {
+  umbrella header "Pods-MMTouchIDManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

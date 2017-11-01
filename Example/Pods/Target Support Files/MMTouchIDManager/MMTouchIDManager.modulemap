@@ -1,0 +1,6 @@
+framework module MMTouchIDManager {
+  umbrella header "MMTouchIDManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

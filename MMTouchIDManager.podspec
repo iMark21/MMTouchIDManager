@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MMTouchIDManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MMTouchIDManager.'
+  s.summary          = 'MMTouchIDManager manages your TouchID for your app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'iMark21' => 'marques.jm@icloud.com' }
   s.source           = { :git => 'https://github.com/iMark21/MMTouchIDManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/michelmarques21'
 
   s.ios.deployment_target = '8.0'
 
