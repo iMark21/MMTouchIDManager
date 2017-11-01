@@ -24,13 +24,14 @@ pod 'MMTouchIDManager'
 and to show the Touch ID Dialog with your custom message, just add this line:
 
 ```objc
-  [[MMTouchIDManager sharedInstance] presentTouchIdDialogIfNeededWithMessage:@"Do you want to access with to the BEST APP in the world with your Touch id?" andCompletion:^(BOOL accessEnabled) {
-        if (accessEnabled) {
-            [self showAlertWithMessage:@"Congratulations!!! Your are in!" withRetry:false];
-        }else{
-            [self showAlertWithMessage:@"Ooops, your are not in!" withRetry:true];
-        }
-    }];
+
+[[MMTouchIDManager sharedInstance] presentTouchIdDialogIfNeededWithMessage:@"Do you want to access with to the BEST APP in the world with your Touch id?" andCompletion:^(BOOL accessEnabled) {
+    if (accessEnabled) {
+       [self showAlertWithMessage:@"Congratulations!!! Your are in!" withRetry:false];      
+    }else{
+       [self showAlertWithMessage:@"Ooops, your are not in!" withRetry:true];
+    }
+}];
     
 ```
 ## Author
