@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMTouchIDManager_Example' do
+  pod 'MMTouchIDManager', :path => '../'
+
+  target 'MMTouchIDManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
